@@ -18,5 +18,6 @@ def signup():
 def login():
     return render_template("LOGIN.HTML")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if _name_ == "_main_":
+    app.run(debug=True,host="0.0.0.0",port=5000)
+
